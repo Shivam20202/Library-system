@@ -71,7 +71,9 @@ const BookDetails = () => {
 
         <div className="bg-white rounded-2xl shadow-md overflow-hidden">
           <div className="flex flex-col md:flex-row">
+
             {/* Cover panel */}
+
             <div
               className="md:w-64 shrink-0 flex items-center justify-center py-16 px-8"
               style={{ backgroundColor: book.coverColor }}
@@ -87,6 +89,7 @@ const BookDetails = () => {
             </div>
 
             {/* Details */}
+
             <div className="flex-1 p-8">
               <span className="inline-block bg-amber-100 text-amber-700 text-xs font-semibold px-3 py-1 rounded-full capitalize mb-4">
                 {book.category.replace('-', ' ')}
