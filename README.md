@@ -4,6 +4,11 @@ A fully-featured online library system built with **React**, **Vite**, **Tailwin
 
 ---
 
+# GitHub
+
+  GitHub Link: https://github.com/Shivam20202/Library-system
+  
+
 ## Features
 
 - **Home Page** — Welcome banner, 6-category grid, and popular books displayed as cards
@@ -39,7 +44,7 @@ A fully-featured online library system built with **React**, **Vite**, **Tailwin
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Shivam20202/Library-system.git
    cd library-hub
    ```
 
