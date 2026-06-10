@@ -1,6 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { INITIAL_BOOKS } from '../data/books';
 
+// Counter for generating unique book IDs
+let bookIdCounter = Math.max(...INITIAL_BOOKS.map(b => b.id || 0)) + 1;
+
 // Redux slice for managing the books list state
 const booksSlice = createSlice({
   name: 'books',
@@ -12,7 +15,7 @@ const booksSlice = createSlice({
     addBook: (state, action) => {
       const newBook = {
         ...action.payload,
-        id: Date.now(),
+        id: bookIdCounter++,
         popular: false,
       };
       state.items.unshift(newBook);

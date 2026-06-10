@@ -3,12 +3,17 @@ import { Star, User, Calendar } from 'lucide-react';
 
 // Reusable card component for displaying a book preview
 const BookCard = ({ book }) => {
+  // Handle missing book data
+  if (!book || !book.title) {
+    return null;
+  }
+
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group flex flex-col">
       {/* Color-coded book cover */}
       <div
         className="h-40 flex items-center justify-center relative overflow-hidden"
-        style={{ backgroundColor: book.coverColor }}
+        style={{ backgroundColor: book.coverColor || '#6b7280' }}
       >
         <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors" />
         <span className="text-white text-4xl font-bold opacity-30 select-none">
