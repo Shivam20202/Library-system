@@ -1,0 +1,121 @@
+// Dummy book data for the online library system
+export const CATEGORIES = [
+  { id: 'fiction', label: 'Fiction', icon: '📚', description: 'Imaginative stories and narratives' },
+  { id: 'non-fiction', label: 'Non-Fiction', icon: '📖', description: 'Real events, people, and places' },
+  { id: 'sci-fi', label: 'Sci-Fi', icon: '🚀', description: 'Science and futuristic concepts' },
+  { id: 'mystery', label: 'Mystery', icon: '🔍', description: 'Suspense, crime, and detective stories' },
+  { id: 'biography', label: 'Biography', icon: '👤', description: 'Life stories of real people' },
+  { id: 'fantasy', label: 'Fantasy', icon: '🧙', description: 'Magic, myth, and imaginary worlds' },
+];
+
+export const INITIAL_BOOKS = [
+  {
+    id: 1,
+    title: 'To Kill a Mockingbird',
+    author: 'Harper Lee',
+    category: 'fiction',
+    rating: 4.8,
+    description:
+      'A gripping tale of racial injustice and the loss of innocence in the American South, told through the eyes of young Scout Finch. Her father Atticus Finch, an attorney, defends a Black man accused of raping a white woman.',
+    coverColor: '#1e3a5f',
+    year: 1960,
+    pages: 281,
+    popular: true,
+  },
+  {
+    id: 2,
+    title: 'Dune',
+    author: 'Frank Herbert',
+    category: 'sci-fi',
+    rating: 4.7,
+    description:
+      'Set in the distant future amidst a feudal interstellar society, Dune tells the story of young Paul Atreides as his family accepts control of the desert planet Arrakis, the only source of the most valuable substance in the universe.',
+    coverColor: '#8b4513',
+    year: 1965,
+    pages: 412,
+    popular: true,
+  },
+  {
+    id: 3,
+    title: 'Sapiens',
+    author: 'Yuval Noah Harari',
+    category: 'non-fiction',
+    rating: 4.6,
+    description:
+      'A brief history of humankind, exploring how Homo sapiens came to dominate the Earth. Harari surveys the history of human kind from the Stone Age to the twenty-first century.',
+    coverColor: '#2d5a27',
+    year: 2011,
+    pages: 443,
+    popular: true,
+  },
+  {
+    year: 1949,
+    pages: 328,
+    popular: true,
+  },
+  {
+    id: 8,
+    title: 'The Martian',
+    author: 'Andy Weir',
+    category: 'sci-fi',
+    rating: 4.6,
+    description:
+      'During a manned mission to Mars, astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet.',
+    coverColor: '#c04000',
+    year: 2011,
+    pages: 369,
+    popular: false,
+  },
+  {
+    id: 9,
+    title: 'Gone Girl',
+    author: 'Gillian Flynn',
+    category: 'mystery',
+    rating: 4.3,
+    description:
+      "On the morning of their fifth wedding anniversary, Nick Dunne's wife Amy suddenly disappears. Under pressure from the police and a growing media frenzy, Nick's portrait of a blissful union begins to crumble.",
+    coverColor: '#2f4f4f',
+    year: 2012,
+    pages: 422,
+    popular: false,
+  },
+  {
+    id: 10,
+    title: 'Educated',
+    author: 'Tara Westover',
+    category: 'biography',
+    rating: 4.7,
+    description:
+      'A memoir about a young girl who, kept out of school, leaves her survivalist family and goes on to earn a PhD from Cambridge University.',
+    coverColor: '#556b2f',
+    year: 2018,
+    pages: 334,
+    popular: false,
+  },
+  {
+    id: 11,
+    title: 'The Hobbit',
+    author: 'J.R.R. Tolkien',
+    category: 'fantasy',
+    rating: 4.8,
+    description:
+      'A fantasy novel about the adventures of hobbit Bilbo Baggins, who is convinced by the wizard Gandalf to accompany thirteen dwarves on a quest to reclaim the Lonely Mountain from the dragon Smaug.',
+    coverColor: '#2e8b57',
+    year: 1937,
+    pages: 310,
+    popular: false,
+  },
+  {
+    id: 12,
+    title: 'Atomic Habits',
+    author: 'James Clear',
+    category: 'non-fiction',
+    rating: 4.8,
+    description:
+      'A practical guide to building good habits and breaking bad ones. Clear reveals exactly how these changes come about using a framework called the Four Laws of Behavior Change.',
+    coverColor: '#b8860b',
+    year: 2018,
+    pages: 319,
+    popular: false,
+  },
+];
