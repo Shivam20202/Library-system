@@ -16,6 +16,7 @@ const NotFound = () => {
         <p className="text-slate-400 mb-4 leading-relaxed">
           The page you are looking for does not exist or has been moved.
         </p>
+        
         {/* Display the invalid route URL as required by the assignment */}
         <div className="bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 mb-8 text-sm font-mono text-red-400 break-all">
           {window.location.origin}
