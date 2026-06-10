@@ -6,9 +6,11 @@ A fully-featured online library system built with **React**, **Vite**, **Tailwin
 
 # Links
 
-  GitHub Link: https://github.com/Shivam20202/Library-system
-  Deployed Link: https://booklib-two.vercel.app/
+  **GitHub Link**: https://github.com/Shivam20202/Library-system
   
+  **Deployed Link**: https://booklib-two.vercel.app/
+  
+---
 
 ## Features
 
